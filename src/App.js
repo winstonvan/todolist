@@ -2,6 +2,8 @@ import React from "react";
 import TodoItem from "./TodoItem";
 import todosData from "./todosData";
 import "./style.css";
+import "firebase/auth";
+import db from "../components/Database";
 
 class App extends React.Component {
   constructor() {
